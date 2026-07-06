@@ -253,6 +253,10 @@ declare global {
                         table: 'sys_module'
                         id: '8fb7c23cd779424d9e16feed813bb139'
                     }
+                    submit_idea_record_producer: {
+                        table: 'sc_cat_item_producer'
+                        id: '015fb2cb6c8444a68caad530ff34faf4'
+                    }
                     ui_action_approve_idea: {
                         table: 'sys_ui_action'
                         id: '761a274e3d6c4932ada38d6c7a1b556d'
@@ -279,6 +283,15 @@ declare global {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'percent_complete'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'item_option_new'
+                        id: '04d4e6c2064d434db875be7711d83d09'
+                        key: {
+                            cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                            variable_set: 'NULL'
+                            name: 'business_problem'
                         }
                     },
                     {
@@ -373,6 +386,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'item_option_new'
+                        id: '0e838778baa34193a84c8913d9c3caf8'
+                        key: {
+                            cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                            variable_set: 'NULL'
+                            name: 'short_description'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '10d29c92b02e46c685dbf12723d0be49'
                         key: {
@@ -421,6 +443,21 @@ declare global {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'test_result'
                             value: 'blocked'
+                        }
+                    },
+                    {
+                        table: 'question_choice'
+                        id: '17bb478816494567b4d133111444d655'
+                        key: {
+                            question: {
+                                id: 'e894e143c0dc4c7b90529ae2acf91b68'
+                                key: {
+                                    cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                                    variable_set: 'NULL'
+                                    name: 'category'
+                                }
+                            }
+                            value: 'ai_agentic'
                         }
                     },
                     {
@@ -519,6 +556,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'item_option_new'
+                        id: '1eea19ef205e40f6b19c83fc1c82165d'
+                        key: {
+                            cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                            variable_set: 'NULL'
+                            name: 'expected_benefit'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '2160cc1fa0c24bc184c31d7c55ff7215'
                         key: {
@@ -585,6 +631,21 @@ declare global {
                         id: '27015ba27ed54bbb9afe878d64d42bde'
                         key: {
                             name: 'x_prna_idea_mgmt.requestor'
+                        }
+                    },
+                    {
+                        table: 'question_choice'
+                        id: '27994e22a63e4fcf9919cc39a9cc3216'
+                        key: {
+                            question: {
+                                id: 'e894e143c0dc4c7b90529ae2acf91b68'
+                                key: {
+                                    cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                                    variable_set: 'NULL'
+                                    name: 'category'
+                                }
+                            }
+                            value: 'integration'
                         }
                     },
                     {
@@ -766,6 +827,21 @@ declare global {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'business_problem'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'question_choice'
+                        id: '376c928d2abe4805b3b30022e3661644'
+                        key: {
+                            question: {
+                                id: 'e894e143c0dc4c7b90529ae2acf91b68'
+                                key: {
+                                    cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                                    variable_set: 'NULL'
+                                    name: 'category'
+                                }
+                            }
+                            value: 'csm_accelerator'
                         }
                     },
                     {
@@ -1181,6 +1257,21 @@ declare global {
                         key: {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'state'
+                        }
+                    },
+                    {
+                        table: 'question_choice'
+                        id: '767a15aa75ff43f2b0b4248f364dedbd'
+                        key: {
+                            question: {
+                                id: 'e894e143c0dc4c7b90529ae2acf91b68'
+                                key: {
+                                    cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                                    variable_set: 'NULL'
+                                    name: 'category'
+                                }
+                            }
+                            value: 'itsm_accelerator'
                         }
                     },
                     {
@@ -1655,6 +1746,21 @@ declare global {
                         }
                     },
                     {
+                        table: 'question_choice'
+                        id: 'b3fd575e18ee40c185555a3327ba8ebc'
+                        key: {
+                            question: {
+                                id: 'e894e143c0dc4c7b90529ae2acf91b68'
+                                key: {
+                                    cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                                    variable_set: 'NULL'
+                                    name: 'category'
+                                }
+                            }
+                            value: 'itom_observability'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'b46ec488c1d24fc8b05886b3efaeeb3d'
                         key: {
@@ -1812,6 +1918,21 @@ declare global {
                         id: 'd44c763da63144c5ab676b22dae26d1a'
                         key: {
                             name: 'x_prna_idea_mgmt.solution_designer'
+                        }
+                    },
+                    {
+                        table: 'question_choice'
+                        id: 'd4ed70ea00094d1fa90d7fef89053343'
+                        key: {
+                            question: {
+                                id: 'e894e143c0dc4c7b90529ae2acf91b68'
+                                key: {
+                                    cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                                    variable_set: 'NULL'
+                                    name: 'category'
+                                }
+                            }
+                            value: 'portal_ux'
                         }
                     },
                     {
@@ -2030,6 +2151,15 @@ declare global {
                         key: {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'marketplace_listing_url'
+                        }
+                    },
+                    {
+                        table: 'item_option_new'
+                        id: 'e894e143c0dc4c7b90529ae2acf91b68'
+                        key: {
+                            cat_item: '015fb2cb6c8444a68caad530ff34faf4'
+                            variable_set: 'NULL'
+                            name: 'category'
                         }
                     },
                     {
