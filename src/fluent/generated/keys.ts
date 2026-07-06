@@ -185,6 +185,30 @@ declare global {
                         table: 'sys_group_has_role'
                         id: 'ea4c2bb9dda5440bbb56bf808b8102b8'
                     }
+                    notification_idea_approved: {
+                        table: 'sysevent_email_action'
+                        id: '23ae1da839764d2aa0f42113b435e816'
+                    }
+                    notification_idea_deployed: {
+                        table: 'sysevent_email_action'
+                        id: '4b1c3db6ba4c4cb69b0555fe4ec23a6b'
+                    }
+                    notification_idea_needs_more_info: {
+                        table: 'sysevent_email_action'
+                        id: '6f0a1da75a17466598e6827848254e98'
+                    }
+                    notification_idea_rejected: {
+                        table: 'sysevent_email_action'
+                        id: '3baaa5fa4dcf49ef821963f0a92cad54'
+                    }
+                    notification_idea_routed_for_approval: {
+                        table: 'sysevent_email_action'
+                        id: 'e2ab94f243c64de697811573776d16a7'
+                    }
+                    notification_idea_submitted: {
+                        table: 'sysevent_email_action'
+                        id: '11875353c7ad43638511c60d3c785d80'
+                    }
                     package_json: {
                         table: 'sys_module'
                         id: '3c72f6b106e147fc8fa0601486aa0458'
