@@ -33,6 +33,30 @@ declare global {
                         table: 'sys_script'
                         id: '4e8bd26b6b7c4db5a6c39d9ec81717d1'
                     }
+                    create_build_ut_task: {
+                        table: 'sys_hub_action_instance_v2'
+                        id: '29e31eb6838f49e785e4056e5dcb8f98'
+                    }
+                    create_cost_benefit_task: {
+                        table: 'sys_hub_action_instance_v2'
+                        id: '9ae77d5ba581439f900e7c93292718ea'
+                    }
+                    create_deploy_marketplace_task: {
+                        table: 'sys_hub_action_instance_v2'
+                        id: 'a8ecd07b6bb8461b85fa0f2f4eee7994'
+                    }
+                    create_ootb_app_check_task: {
+                        table: 'sys_hub_action_instance_v2'
+                        id: 'a9ba7a51793c4bb9b098effd31c5ae4c'
+                    }
+                    create_solution_design_task: {
+                        table: 'sys_hub_action_instance_v2'
+                        id: '73023456005e4fbf9338bbc2716739f7'
+                    }
+                    create_testing_task: {
+                        table: 'sys_hub_action_instance_v2'
+                        id: '6f6d1ce8cea54e219ca669a628a2d03b'
+                    }
                     delivery_team_group: {
                         table: 'sys_user_group'
                         id: '998b7cc507a349489d8ecd57668cb17e'
@@ -40,6 +64,22 @@ declare global {
                     delivery_team_role_grant: {
                         table: 'sys_group_has_role'
                         id: 'e79d115d41454fd6b81447fbbee00eb5'
+                    }
+                    flow_create_idea_assessment_tasks: {
+                        table: 'sys_hub_flow'
+                        id: '08e6573d7a6f45d0874533ce5ec540c7'
+                    }
+                    flow_create_idea_assessment_tasks_trigger: {
+                        table: 'sys_hub_trigger_instance_v2'
+                        id: '105cd45fe2db46a9903eabe71f4c0d0c'
+                    }
+                    flow_create_idea_delivery_tasks: {
+                        table: 'sys_hub_flow'
+                        id: '202eb981841042e6840879573dbd4974'
+                    }
+                    flow_create_idea_delivery_tasks_trigger: {
+                        table: 'sys_hub_trigger_instance_v2'
+                        id: '20df226041fd4702a889af9b94c4123f'
                     }
                     idea_acl_admin_create: {
                         table: 'sys_security_acl'
