@@ -9,6 +9,30 @@ declare global {
                         table: 'sys_module'
                         id: 'c9d436f3c6a8460f84969a490f56fa4b'
                     }
+                    br_idea_defaults: {
+                        table: 'sys_script'
+                        id: 'd35da72409c54f55a9267906042ee792'
+                    }
+                    br_idea_guard_transitions: {
+                        table: 'sys_script'
+                        id: '00a3d27bedc24a5b9c694ce2d1f59184'
+                    }
+                    br_idea_task_after_insert: {
+                        table: 'sys_script'
+                        id: '72b74889f1384bd6b5c6504f321039d4'
+                    }
+                    br_idea_task_after_update: {
+                        table: 'sys_script'
+                        id: '72f05654c3e34ea0bb99e2870f1f6e90'
+                    }
+                    br_idea_task_defaults: {
+                        table: 'sys_script'
+                        id: '56c8f58db92b46948618e449657850f1'
+                    }
+                    br_idea_task_validate_close: {
+                        table: 'sys_script'
+                        id: '4e8bd26b6b7c4db5a6c39d9ec81717d1'
+                    }
                     delivery_team_group: {
                         table: 'sys_user_group'
                         id: '998b7cc507a349489d8ecd57668cb17e'
@@ -136,6 +160,30 @@ declare global {
                     'src_server_acls_idea-acl-scripts_ts': {
                         table: 'sys_module'
                         id: '4cff7bab7f8f4fedb4cf7c84e00d6fb0'
+                    }
+                    'src_server_business-rules_idea-defaults_ts': {
+                        table: 'sys_module'
+                        id: '693ce766ee7b47bcabb677047e0b7a99'
+                    }
+                    'src_server_business-rules_idea-guard-transitions_ts': {
+                        table: 'sys_module'
+                        id: '468f5015e1f0400aafbede5f3de37592'
+                    }
+                    'src_server_business-rules_idea-task-after-insert_ts': {
+                        table: 'sys_module'
+                        id: '6fb602fbe1a34d99b1099d0529ceedf4'
+                    }
+                    'src_server_business-rules_idea-task-after-update_ts': {
+                        table: 'sys_module'
+                        id: '8099963db658492a80f6d8ca3c2041f2'
+                    }
+                    'src_server_business-rules_idea-task-defaults_ts': {
+                        table: 'sys_module'
+                        id: 'e09c09a113534c12af89e6d5736bcd7c'
+                    }
+                    'src_server_business-rules_idea-task-validate-close_ts': {
+                        table: 'sys_module'
+                        id: 'b657379dadfe4145be8e25058adb2973'
                     }
                 }
                 composite: [

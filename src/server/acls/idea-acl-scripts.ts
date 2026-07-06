@@ -21,7 +21,8 @@ export function isApprovalEditable(current: any): boolean {
 
 export function isOwnIdeaTask(current: any): boolean {
     if (isAdmin()) return true
-    return current.parent.opened_by == gs.getUserID()
+    const idea = current.parent.getRefRecord()
+    return idea.getValue('opened_by') === gs.getUserID()
 }
 
 export function isAssessmentTaskEditable(current: any): boolean {
