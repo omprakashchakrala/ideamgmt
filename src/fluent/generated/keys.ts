@@ -185,6 +185,18 @@ declare global {
                         table: 'sys_module'
                         id: 'b657379dadfe4145be8e25058adb2973'
                     }
+                    'src_server_ui-actions_idea-approval-actions_ts': {
+                        table: 'sys_module'
+                        id: '8fb7c23cd779424d9e16feed813bb139'
+                    }
+                    ui_action_approve_idea: {
+                        table: 'sys_ui_action'
+                        id: '761a274e3d6c4932ada38d6c7a1b556d'
+                    }
+                    ui_action_reject_idea: {
+                        table: 'sys_ui_action'
+                        id: 'bc7f342a5729440eb28b91aadbba3a55'
+                    }
                 }
                 composite: [
                     {
@@ -1027,6 +1039,19 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_action_role'
+                        id: '67a80026c72b448f99113241f40c46f1'
+                        key: {
+                            sys_ui_action: '761a274e3d6c4932ada38d6c7a1b556d'
+                            sys_user_role: {
+                                id: '29568839c4874ad7833ed18b7a448cbf'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.approver'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_security_acl_role'
                         id: '68679ed8094d46b3a4a5cd0c5d99dfbb'
                         key: {
@@ -1465,6 +1490,19 @@ declare global {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'phase'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_action_role'
+                        id: 'a8706daa070a4d83b21bbbf4a61e5620'
+                        key: {
+                            sys_ui_action: 'bc7f342a5729440eb28b91aadbba3a55'
+                            sys_user_role: {
+                                id: '29568839c4874ad7833ed18b7a448cbf'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.approver'
+                                }
+                            }
                         }
                     },
                     {
