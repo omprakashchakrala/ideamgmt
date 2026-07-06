@@ -25,3 +25,25 @@ UI Builder directly:
   records) — map the 8 Idea states to tracker steps: New, IA In Progress, IA Completed,
   Selected, Delivery in Progress, Testing in Progress, Deployed (Rejected as a
   terminal/error state)
+
+## 3. Group the 13 ATF tests into a Test Suite
+
+Fluent has no `TestSuite` API (confirmed via `sdk explain` — only `Test`), so
+`src/fluent/tests/*.now.ts` installs as 13 standalone `sys_atf_test` records. Group them:
+
+- Automated Test Framework -> Test Suites -> New -> "Idea Management – End to End"
+- Add TC01–TC13 in order
+
+## 4. Run the ATF suite and complete a manual E2E pass
+
+This session has no `sdk auth` configured against a live instance, so the tests above
+were validated at build time only (`now-sdk build` — TypeScript/Fluent syntax checked)
+and have **not** been executed against a real instance. Before merging:
+
+1. `npx now-sdk auth --add <instance-url> --type basic` (or oauth), then `npx now-sdk install`
+2. Run the Test Suite from step 3 above; fix any failures before proceeding
+3. Spot-check TC02, TC03, TC04, TC09, TC10 specifically — their child-task lookups use a
+   template-literal encoded query (`` `parent=${result.record_id}` ``) modeled on the
+   confirmed Flow Designer dynamic-reference pattern, not a directly-documented ATF example
+4. Manually walk the full happy path (New -> ... -> Deployed), the OOTB gate, and the
+   Needs More Info loop once as an independent sanity check
