@@ -57,6 +57,86 @@ declare global {
                         table: 'sys_hub_action_instance_v2'
                         id: '6f6d1ce8cea54e219ca669a628a2d03b'
                     }
+                    dashboard_admin_funnel: {
+                        table: 'par_dashboard'
+                        id: 'f2b721f60ea04bc09fc29a78d3576f41'
+                    }
+                    dashboard_admin_funnel_tab: {
+                        table: 'par_dashboard_tab'
+                        id: '20bdfa68e6b04a8b84f1f4c6989c1b0f'
+                    }
+                    dashboard_admin_funnel_widget: {
+                        table: 'par_dashboard_widget'
+                        id: '9d1f7cd9f686482fa59b47896d9dcd33'
+                    }
+                    dashboard_admin_funnel_widget_by_category: {
+                        table: 'par_dashboard_widget'
+                        id: '178ec03173944d2ab0045902d4b413d7'
+                    }
+                    dashboard_delivery_team: {
+                        table: 'par_dashboard'
+                        id: '74776b6fbf8743adb4a8324cde61107d'
+                    }
+                    dashboard_delivery_team_tab: {
+                        table: 'par_dashboard_tab'
+                        id: 'c50c0ec63d664efd8dcc972a0f46aedc'
+                    }
+                    dashboard_delivery_team_widget_by_status: {
+                        table: 'par_dashboard_widget'
+                        id: '1d6b19f8f59e44f8a2af4a7fc04a4ddb'
+                    }
+                    dashboard_delivery_team_widget_open: {
+                        table: 'par_dashboard_widget'
+                        id: 'f9d95b474a484d8ea61041341bed81c6'
+                    }
+                    dashboard_leadership: {
+                        table: 'par_dashboard'
+                        id: '8e91159f3e074d418ac40bab91d7dd55'
+                    }
+                    dashboard_leadership_tab: {
+                        table: 'par_dashboard_tab'
+                        id: '50972c287fb046a191d679c0c88e7a81'
+                    }
+                    dashboard_leadership_widget_by_category: {
+                        table: 'par_dashboard_widget'
+                        id: 'a11ca2ae1afd409d854fafeb50e11967'
+                    }
+                    dashboard_leadership_widget_pending: {
+                        table: 'par_dashboard_widget'
+                        id: '54ccd07f0886415ea2374eaff15d9f2a'
+                    }
+                    dashboard_requestor: {
+                        table: 'par_dashboard'
+                        id: 'e66bf12030d049d4bcceec437b503846'
+                    }
+                    dashboard_requestor_tab: {
+                        table: 'par_dashboard_tab'
+                        id: 'ac340bdfcb3b4f10a1e6e1b8fd5526cc'
+                    }
+                    dashboard_requestor_widget_by_state: {
+                        table: 'par_dashboard_widget'
+                        id: '23739cb29a054e14be0aac7a94b0ff12'
+                    }
+                    dashboard_requestor_widget_count: {
+                        table: 'par_dashboard_widget'
+                        id: '354e85cc2e5245cab7c4e5b0b4b14ef0'
+                    }
+                    dashboard_solutions_team: {
+                        table: 'par_dashboard'
+                        id: 'd9580a9faa5a4cc796300748b92a8142'
+                    }
+                    dashboard_solutions_team_tab: {
+                        table: 'par_dashboard_tab'
+                        id: '3afaa1c6dbf040178207f05fc14a11d0'
+                    }
+                    dashboard_solutions_team_widget_by_type: {
+                        table: 'par_dashboard_widget'
+                        id: '6f9af0ccb3fa4d7bb4f971e02ed9a4da'
+                    }
+                    dashboard_solutions_team_widget_open: {
+                        table: 'par_dashboard_widget'
+                        id: 'bf8826a6782c48e28814556df9e054bc'
+                    }
                     delivery_team_group: {
                         table: 'sys_user_group'
                         id: '998b7cc507a349489d8ecd57668cb17e'
@@ -295,6 +375,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_canvas'
+                        id: '06300a078a36416a8bd5380185b8fc7c'
+                        key: {
+                            dashboard: 'f2b721f60ea04bc09fc29a78d3576f41'
+                            dashboard_tab: '20bdfa68e6b04a8b84f1f4c6989c1b0f'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '06a672e4d2b0454aa2af5ec119c06042'
                         key: {
@@ -418,6 +506,16 @@ declare global {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'ootb_notes'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_permission'
+                        id: '13d8470e9e074f9fb2d2f36835df2446'
+                        key: {
+                            dashboard: 'f2b721f60ea04bc09fc29a78d3576f41'
+                            user: 'NULL'
+                            group: 'NULL'
+                            role: 'x_prna_idea_mgmt.admin'
                         }
                     },
                     {
@@ -631,6 +729,14 @@ declare global {
                         id: '27015ba27ed54bbb9afe878d64d42bde'
                         key: {
                             name: 'x_prna_idea_mgmt.requestor'
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_canvas'
+                        id: '2729a653696e42c0a17d0f75e64c3509'
+                        key: {
+                            dashboard: '8e91159f3e074d418ac40bab91d7dd55'
+                            dashboard_tab: '50972c287fb046a191d679c0c88e7a81'
                         }
                     },
                     {
@@ -866,6 +972,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_visibility'
+                        id: '3eebddde23834363801118e803e960fe'
+                        key: {
+                            dashboard: 'e66bf12030d049d4bcceec437b503846'
+                            experience: '08c73d60537101100834ddeeff7b1287'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '3fe385b73cd5499da55efa8b05157b07'
                         key: {
@@ -935,6 +1049,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_canvas'
+                        id: '45d2a2569f284e4e96cdd56ac34f794e'
+                        key: {
+                            dashboard: '74776b6fbf8743adb4a8324cde61107d'
+                            dashboard_tab: 'c50c0ec63d664efd8dcc972a0f46aedc'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '465fb2a1a65e49988b5c9a184f1d9693'
                         key: {
@@ -993,6 +1115,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_visibility'
+                        id: '4e2deef1bbd242948fbdccc1bb2b4d3f'
+                        key: {
+                            dashboard: '8e91159f3e074d418ac40bab91d7dd55'
+                            experience: '08c73d60537101100834ddeeff7b1287'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '4e4c14c53cec412fb3580960d4287c5e'
                         key: {
@@ -1029,6 +1159,14 @@ declare global {
                                     name: 'x_prna_idea_mgmt.admin'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_visibility'
+                        id: '4fe56ef6706040d69696f0999fad876e'
+                        key: {
+                            dashboard: 'f2b721f60ea04bc09fc29a78d3576f41'
+                            experience: '08c73d60537101100834ddeeff7b1287'
                         }
                     },
                     {
@@ -1354,6 +1492,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_canvas'
+                        id: '7bd105b245e34b24b335b5f1385b442d'
+                        key: {
+                            dashboard: 'd9580a9faa5a4cc796300748b92a8142'
+                            dashboard_tab: '3afaa1c6dbf040178207f05fc14a11d0'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '7bd1df33956a4edb975a0ac6583cae11'
                         key: {
@@ -1464,6 +1610,16 @@ declare global {
                                     name: 'x_prna_idea_mgmt.solution_designer'
                                 }
                             }
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_permission'
+                        id: '8df0413b1e514068803969db61ac6489'
+                        key: {
+                            dashboard: 'd9580a9faa5a4cc796300748b92a8142'
+                            user: 'NULL'
+                            group: 'NULL'
+                            role: 'x_prna_idea_mgmt.solution_designer'
                         }
                     },
                     {
@@ -1686,6 +1842,14 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_canvas'
+                        id: 'aab60b1a185e426e93709e62148a2a0b'
+                        key: {
+                            dashboard: 'e66bf12030d049d4bcceec437b503846'
+                            dashboard_tab: 'ac340bdfcb3b4f10a1e6e1b8fd5526cc'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: 'aaefd34118a34cd6abdc20491670218d'
                         key: {
@@ -1709,6 +1873,16 @@ declare global {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'rejection_reason'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_permission'
+                        id: 'af6c249140cd46ef8eb4aadb16886ddb'
+                        key: {
+                            dashboard: '8e91159f3e074d418ac40bab91d7dd55'
+                            user: 'NULL'
+                            group: 'NULL'
+                            role: 'x_prna_idea_mgmt.approver'
                         }
                     },
                     {
@@ -1778,6 +1952,16 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_permission'
+                        id: 'b528209ea8c74dd0a9ead6954e810c31'
+                        key: {
+                            dashboard: 'e66bf12030d049d4bcceec437b503846'
+                            user: 'NULL'
+                            group: 'NULL'
+                            role: 'x_prna_idea_mgmt.requestor'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'b57b64f57177417280e0c49d297952b7'
                         key: {
@@ -1816,6 +2000,14 @@ declare global {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'NULL'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_visibility'
+                        id: 'bad5f478bb974fcc83711c085eb5e565'
+                        key: {
+                            dashboard: 'd9580a9faa5a4cc796300748b92a8142'
+                            experience: '08c73d60537101100834ddeeff7b1287'
                         }
                     },
                     {
@@ -1870,6 +2062,16 @@ declare global {
                         }
                     },
                     {
+                        table: 'par_dashboard_permission'
+                        id: 'c86494418a7e44538fcf88195ebe2b06'
+                        key: {
+                            dashboard: '74776b6fbf8743adb4a8324cde61107d'
+                            user: 'NULL'
+                            group: 'NULL'
+                            role: 'x_prna_idea_mgmt.implementer'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: 'cc28424d76984ccc8e8b605b2f8eb7e2'
                         key: {
@@ -1911,6 +2113,14 @@ declare global {
                         id: 'd2e3e051b00545958cca7ce70f3920cf'
                         key: {
                             name: 'x_prna_idea_mgmt_idea'
+                        }
+                    },
+                    {
+                        table: 'par_dashboard_visibility'
+                        id: 'd3a6edf1cde847308795e719016d4264'
+                        key: {
+                            dashboard: '74776b6fbf8743adb4a8324cde61107d'
+                            experience: '08c73d60537101100834ddeeff7b1287'
                         }
                     },
                     {
