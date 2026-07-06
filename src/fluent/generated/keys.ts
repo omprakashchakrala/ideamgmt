@@ -9,9 +9,133 @@ declare global {
                         table: 'sys_module'
                         id: 'c9d436f3c6a8460f84969a490f56fa4b'
                     }
+                    delivery_team_group: {
+                        table: 'sys_user_group'
+                        id: '998b7cc507a349489d8ecd57668cb17e'
+                    }
+                    delivery_team_role_grant: {
+                        table: 'sys_group_has_role'
+                        id: 'e79d115d41454fd6b81447fbbee00eb5'
+                    }
+                    idea_acl_admin_create: {
+                        table: 'sys_security_acl'
+                        id: '0eba389f8b3d4c11b40a3dfd8e0f219b'
+                    }
+                    idea_acl_admin_delete: {
+                        table: 'sys_security_acl'
+                        id: 'b50cb62fdfa44958a9675c54f6429d42'
+                    }
+                    idea_acl_admin_read: {
+                        table: 'sys_security_acl'
+                        id: '53d3777550204c8b9bcef53e626738d7'
+                    }
+                    idea_acl_admin_write: {
+                        table: 'sys_security_acl'
+                        id: 'edc17771ce184b9fbd2d59b50ff55bad'
+                    }
+                    idea_acl_approver_write_comments: {
+                        table: 'sys_security_acl'
+                        id: '1f843af0876447c191cdc0597b6475e5'
+                    }
+                    idea_acl_approver_write_decision: {
+                        table: 'sys_security_acl'
+                        id: 'c47e255293e546bf9bef0c7668bfd68b'
+                    }
+                    idea_acl_approver_write_rejection_reason: {
+                        table: 'sys_security_acl'
+                        id: 'f53b204e617d458aa2bb26a661afa4ce'
+                    }
+                    idea_acl_requestor_create: {
+                        table: 'sys_security_acl'
+                        id: 'dc550a891e0040558abc72806fa9cd41'
+                    }
+                    idea_acl_requestor_read_own: {
+                        table: 'sys_security_acl'
+                        id: '86d17e20edc74529ae206b9afaee2643'
+                    }
+                    idea_acl_requestor_write_business_problem: {
+                        table: 'sys_security_acl'
+                        id: '109a79fff6ed47f693fbbc4b3e08f961'
+                    }
+                    idea_acl_requestor_write_category: {
+                        table: 'sys_security_acl'
+                        id: '255fc2b387f345bd9ae1c52bfb0b0832'
+                    }
+                    idea_acl_requestor_write_comments: {
+                        table: 'sys_security_acl'
+                        id: '9c74213cf5454114ab19e1b076004a99'
+                    }
+                    idea_acl_requestor_write_expected_benefit: {
+                        table: 'sys_security_acl'
+                        id: 'f2a70aff0e644e7fbb31a9dcda0dfcd7'
+                    }
+                    idea_acl_requestor_write_short_description: {
+                        table: 'sys_security_acl'
+                        id: 'e7bd55a1fee14d2191638275bd045573'
+                    }
+                    idea_acl_team_read: {
+                        table: 'sys_security_acl'
+                        id: '58881beeb6d744c3b72880017ad398da'
+                    }
+                    idea_acl_work_notes_read: {
+                        table: 'sys_security_acl'
+                        id: '7403c65e6de24e24adbe96f1cffc46ed'
+                    }
+                    idea_task_acl_admin_create: {
+                        table: 'sys_security_acl'
+                        id: '4b6ff99d2aa74492bfd63155bbd5d05a'
+                    }
+                    idea_task_acl_admin_delete: {
+                        table: 'sys_security_acl'
+                        id: 'ff8547b9ab5f41b3a118fda2e17fc51d'
+                    }
+                    idea_task_acl_admin_read: {
+                        table: 'sys_security_acl'
+                        id: '22a7225e62b24a3c9381c2e37e0eb576'
+                    }
+                    idea_task_acl_admin_write: {
+                        table: 'sys_security_acl'
+                        id: '0c47a34a9994420389661b214370984b'
+                    }
+                    idea_task_acl_implementer_write: {
+                        table: 'sys_security_acl'
+                        id: 'a93e9869770646e2b66da34891ac9fdc'
+                    }
+                    idea_task_acl_requestor_read: {
+                        table: 'sys_security_acl'
+                        id: 'ad5fb445bcb84d238ac06eaa7542d836'
+                    }
+                    idea_task_acl_solution_designer_write: {
+                        table: 'sys_security_acl'
+                        id: 'c21a2ec941774d688581fafb60530ba9'
+                    }
+                    idea_task_acl_team_read: {
+                        table: 'sys_security_acl'
+                        id: 'b0a0613b96dc43c984d398473ab20146'
+                    }
+                    leadership_group_group: {
+                        table: 'sys_user_group'
+                        id: 'c51c38b152fd40d38af8641bf31e0585'
+                    }
+                    leadership_group_role_grant: {
+                        table: 'sys_group_has_role'
+                        id: 'ea4c2bb9dda5440bbb56bf808b8102b8'
+                    }
                     package_json: {
                         table: 'sys_module'
                         id: '3c72f6b106e147fc8fa0601486aa0458'
+                    }
+                    solutions_team_group: {
+                        table: 'sys_user_group'
+                        id: '9037fe0ae8f44c3dacbfaf60b423aecc'
+                    }
+                    solutions_team_role_grant: {
+                        table: 'sys_group_has_role'
+                        id: '56206ea8d8ab42c8b88c9a0a651e0a0d'
+                    }
+                    'src_server_acls_idea-acl-scripts_ts': {
+                        table: 'sys_module'
+                        id: '4cff7bab7f8f4fedb4cf7c84e00d6fb0'
                     }
                 }
                 composite: [
@@ -57,6 +181,19 @@ declare global {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'state'
                             value: '2'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '09b4a1e6f2224b98ab44a80cfa7cbaaf'
+                        key: {
+                            sys_security_acl: 'c47e255293e546bf9bef0c7668bfd68b'
+                            sys_user_role: {
+                                id: '29568839c4874ad7833ed18b7a448cbf'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.approver'
+                                }
+                            }
                         }
                     },
                     {
@@ -147,6 +284,13 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_user_role'
+                        id: '15909bd12f4a401aa7467e82dc308375'
+                        key: {
+                            name: 'x_prna_idea_mgmt.admin'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '16e9069716894544a6e3190487286501'
                         key: {
@@ -173,11 +317,37 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: '19ccc4f4a6cd400ca86f7ae39e7b950e'
+                        key: {
+                            sys_security_acl: '58881beeb6d744c3b72880017ad398da'
+                            sys_user_role: {
+                                id: '29568839c4874ad7833ed18b7a448cbf'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.approver'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '1a61a9900c1c41f99130191180ccb47b'
                         key: {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'task_type'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '1b11daa3324f4bcd8bfadf8e422f5da5'
+                        key: {
+                            sys_security_acl: '7403c65e6de24e24adbe96f1cffc46ed'
+                            sys_user_role: {
+                                id: 'b79ad99785fb4f66bb926312b0da7e83'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.implementer'
+                                }
+                            }
                         }
                     },
                     {
@@ -187,6 +357,32 @@ declare global {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'task_type'
                             value: 'build_ut'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '1c581d11cdcd4193ae265ef9f23ee403'
+                        key: {
+                            sys_security_acl: '22a7225e62b24a3c9381c2e37e0eb576'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '1cf18ad6a7324a7e9ad48cf3a553996a'
+                        key: {
+                            sys_security_acl: '1f843af0876447c191cdc0597b6475e5'
+                            sys_user_role: {
+                                id: '29568839c4874ad7833ed18b7a448cbf'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.approver'
+                                }
+                            }
                         }
                     },
                     {
@@ -217,6 +413,19 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: '2363485efe9b4728a6397ece24d0b5c0'
+                        key: {
+                            sys_security_acl: 'b0a0613b96dc43c984d398473ab20146'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '268bc7c4682e456282409d9545532907'
                         key: {
@@ -235,11 +444,38 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: '27011658e5b8461e9c01489112934116'
+                        key: {
+                            sys_security_acl: 'ff8547b9ab5f41b3a118fda2e17fc51d'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_user_role'
+                        id: '27015ba27ed54bbb9afe878d64d42bde'
+                        key: {
+                            name: 'x_prna_idea_mgmt.requestor'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: '28152b453a054ac68a2aeb922b77aa63'
                         key: {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'phase'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role'
+                        id: '29568839c4874ad7833ed18b7a448cbf'
+                        key: {
+                            name: 'x_prna_idea_mgmt.approver'
                         }
                     },
                     {
@@ -313,12 +549,56 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_user_role_contains'
+                        id: '31eaa2fe3bc84fe2abe40ae6e61b42f2'
+                        key: {
+                            role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                            contains: {
+                                id: 'b79ad99785fb4f66bb926312b0da7e83'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.implementer'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '325b5105766e488e82c487e30f24045f'
+                        key: {
+                            sys_security_acl: '53d3777550204c8b9bcef53e626738d7'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '329464f4b42345c88a661db891f14a7f'
                         key: {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'defect_count'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '3392de3cfab241d49e905e82168ff97b'
+                        key: {
+                            sys_security_acl: 'e7bd55a1fee14d2191638275bd045573'
+                            sys_user_role: {
+                                id: '27015ba27ed54bbb9afe878d64d42bde'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.requestor'
+                                }
+                            }
                         }
                     },
                     {
@@ -365,6 +645,19 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: '3887fbcc84a7421688177714992535f5'
+                        key: {
+                            sys_security_acl: '7403c65e6de24e24adbe96f1cffc46ed'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '3b0d09b435dc4ab48919b442747fdfa0'
                         key: {
@@ -378,6 +671,32 @@ declare global {
                         key: {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'target_end_date'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '40b131fb6b1949339eae489081c022a4'
+                        key: {
+                            sys_security_acl: 'dc550a891e0040558abc72806fa9cd41'
+                            sys_user_role: {
+                                id: '27015ba27ed54bbb9afe878d64d42bde'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.requestor'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '4117b8c196194baca7fd6b4dcfc6809c'
+                        key: {
+                            sys_security_acl: '7403c65e6de24e24adbe96f1cffc46ed'
+                            sys_user_role: {
+                                id: 'd44c763da63144c5ab676b22dae26d1a'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.solution_designer'
+                                }
+                            }
                         }
                     },
                     {
@@ -500,6 +819,19 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: '4f93c13cb54842b185654b61f7661b17'
+                        key: {
+                            sys_security_acl: '58881beeb6d744c3b72880017ad398da'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '503ac4566aca4016bbd37afde9d15c6c'
                         key: {
@@ -557,12 +889,77 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: '5cef75f0b58f488e84035693103f2ead'
+                        key: {
+                            sys_security_acl: 'edc17771ce184b9fbd2d59b50ff55bad'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '6059a6fc906a4db688b1691dfa1dafab'
+                        key: {
+                            sys_security_acl: 'f2a70aff0e644e7fbb31a9dcda0dfcd7'
+                            sys_user_role: {
+                                id: '27015ba27ed54bbb9afe878d64d42bde'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.requestor'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '614b70ce661148faaeef7101f718577e'
+                        key: {
+                            sys_security_acl: '255fc2b387f345bd9ae1c52bfb0b0832'
+                            sys_user_role: {
+                                id: '27015ba27ed54bbb9afe878d64d42bde'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.requestor'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '61beeb2d4eee4989a32454b795589b3e'
+                        key: {
+                            sys_security_acl: 'ad5fb445bcb84d238ac06eaa7542d836'
+                            sys_user_role: {
+                                id: '27015ba27ed54bbb9afe878d64d42bde'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.requestor'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '65b9ba95a15e4406b8b9d914a55d632f'
                         key: {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'approval_decision'
                             value: 'rejected'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '664115aaaed84f508d4022010605d195'
+                        key: {
+                            sys_security_acl: 'b0a0613b96dc43c984d398473ab20146'
+                            sys_user_role: {
+                                id: 'd44c763da63144c5ab676b22dae26d1a'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.solution_designer'
+                                }
+                            }
                         }
                     },
                     {
@@ -579,6 +976,19 @@ declare global {
                         id: '677166b83d4e4328a568ca77ae3958bd'
                         key: {
                             name: 'x_prna_idea_mgmt_task'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '68679ed8094d46b3a4a5cd0c5d99dfbb'
+                        key: {
+                            sys_security_acl: 'b50cb62fdfa44958a9675c54f6429d42'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
                         }
                     },
                     {
@@ -604,6 +1014,19 @@ declare global {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'implementation_status'
                             value: 'complete'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '6def8cdfd4a74337ad878d1325c547e5'
+                        key: {
+                            sys_security_acl: 'f53b204e617d458aa2bb26a661afa4ce'
+                            sys_user_role: {
+                                id: '29568839c4874ad7833ed18b7a448cbf'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.approver'
+                                }
+                            }
                         }
                     },
                     {
@@ -674,6 +1097,32 @@ declare global {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'test_notes'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '79a89e3b1610412c9310a557b4c4fe0c'
+                        key: {
+                            sys_security_acl: 'a93e9869770646e2b66da34891ac9fdc'
+                            sys_user_role: {
+                                id: 'b79ad99785fb4f66bb926312b0da7e83'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.implementer'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '7bb8eba8a11049c7a0cad0c1d42f12eb'
+                        key: {
+                            sys_security_acl: '86d17e20edc74529ae206b9afaee2643'
+                            sys_user_role: {
+                                id: '27015ba27ed54bbb9afe878d64d42bde'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.requestor'
+                                }
+                            }
                         }
                     },
                     {
@@ -769,6 +1218,37 @@ declare global {
                             name: 'x_prna_idea_mgmt_task'
                             element: 'estimated_effort'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role_contains'
+                        id: '8a680e587a86410e82f2da97a177c538'
+                        key: {
+                            role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                            contains: {
+                                id: 'd44c763da63144c5ab676b22dae26d1a'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.solution_designer'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: '90e088a933394058b346c12277aef8c8'
+                        key: {
+                            sys_security_acl: '58881beeb6d744c3b72880017ad398da'
+                            sys_user_role: {
+                                id: 'd44c763da63144c5ab676b22dae26d1a'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.solution_designer'
+                                }
+                            }
                         }
                     },
                     {
@@ -910,6 +1390,19 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: 'a18e30ae5399491d822900b7534aa44e'
+                        key: {
+                            sys_security_acl: '9c74213cf5454114ab19e1b076004a99'
+                            sys_user_role: {
+                                id: '27015ba27ed54bbb9afe878d64d42bde'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.requestor'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'a3413358385c42469138dc3b147ad9bb'
                         key: {
@@ -978,11 +1471,37 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: 'afe2704e6138483ebdbfcda8bc8efffd'
+                        key: {
+                            sys_security_acl: '0eba389f8b3d4c11b40a3dfd8e0f219b'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: 'b2c30e3849ea4052955b97193f5d4b46'
                         key: {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'certification_status'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'b3d5145f33d84b82baa973c90fb860a1'
+                        key: {
+                            sys_security_acl: '109a79fff6ed47f693fbbc4b3e08f961'
+                            sys_user_role: {
+                                id: '27015ba27ed54bbb9afe878d64d42bde'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.requestor'
+                                }
+                            }
                         }
                     },
                     {
@@ -1025,6 +1544,13 @@ declare global {
                         key: {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'business_problem'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role'
+                        id: 'b79ad99785fb4f66bb926312b0da7e83'
+                        key: {
+                            name: 'x_prna_idea_mgmt.implementer'
                         }
                     },
                     {
@@ -1112,10 +1638,30 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: 'd24d57b0567b481a8380755b2acf7c41'
+                        key: {
+                            sys_security_acl: '7403c65e6de24e24adbe96f1cffc46ed'
+                            sys_user_role: {
+                                id: '29568839c4874ad7833ed18b7a448cbf'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.approver'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'ua_table_licensing_config'
                         id: 'd2e3e051b00545958cca7ce70f3920cf'
                         key: {
                             name: 'x_prna_idea_mgmt_idea'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role'
+                        id: 'd44c763da63144c5ab676b22dae26d1a'
+                        key: {
+                            name: 'x_prna_idea_mgmt.solution_designer'
                         }
                     },
                     {
@@ -1152,6 +1698,32 @@ declare global {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'certification_status'
                             value: 'not_submitted'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'da9ef427527f471eaca53e34aab4335e'
+                        key: {
+                            sys_security_acl: 'c21a2ec941774d688581fafb60530ba9'
+                            sys_user_role: {
+                                id: 'd44c763da63144c5ab676b22dae26d1a'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.solution_designer'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'dafc8e8ff02b4e919f2fe5a3545ee271'
+                        key: {
+                            sys_security_acl: '58881beeb6d744c3b72880017ad398da'
+                            sys_user_role: {
+                                id: 'b79ad99785fb4f66bb926312b0da7e83'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.implementer'
+                                }
+                            }
                         }
                     },
                     {
@@ -1207,6 +1779,37 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_user_role_contains'
+                        id: 'dfffd9affb0f412f8dc23c6b5ee86c1f'
+                        key: {
+                            role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                            contains: {
+                                id: '27015ba27ed54bbb9afe878d64d42bde'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.requestor'
+                                }
+                            }
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'e19b62896a574dc5a0b54c180948f2ad'
+                        key: {
+                            sys_security_acl: 'b0a0613b96dc43c984d398473ab20146'
+                            sys_user_role: {
+                                id: 'b79ad99785fb4f66bb926312b0da7e83'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.implementer'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'e41220d0a5af4910913b53b9a644d2b3'
                         key: {
@@ -1242,6 +1845,19 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: 'e65d17910e9447e993f2e3a6b1485a96'
+                        key: {
+                            sys_security_acl: '0c47a34a9994420389661b214370984b'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: 'e69ea310d623490286a598aa83cb5cd5'
                         key: {
@@ -1273,6 +1889,24 @@ declare global {
                             name: 'x_prna_idea_mgmt_idea'
                             element: 'category'
                             value: 'csm_accelerator'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role_contains'
+                        id: 'ecf881d032074c1abdfa404a798b791c'
+                        key: {
+                            role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
+                            contains: {
+                                id: '29568839c4874ad7833ed18b7a448cbf'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.approver'
+                                }
+                            }
                         }
                     },
                     {
@@ -1319,6 +1953,19 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_security_acl_role'
+                        id: 'f6f95044d7e445888507ea5a367547d4'
+                        key: {
+                            sys_security_acl: 'b0a0613b96dc43c984d398473ab20146'
+                            sys_user_role: {
+                                id: '29568839c4874ad7833ed18b7a448cbf'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.approver'
+                                }
+                            }
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'f7acfbdaf3434865ba99d42f7fd8c535'
                         key: {
@@ -1357,6 +2004,19 @@ declare global {
                         id: 'fe1c104e705c4d408dc9375984b9d597'
                         key: {
                             name: 'x_prna_idea_mgmt_idea'
+                        }
+                    },
+                    {
+                        table: 'sys_security_acl_role'
+                        id: 'fedd12647bff46a5a46f3b583040613e'
+                        key: {
+                            sys_security_acl: '4b6ff99d2aa74492bfd63155bbd5d05a'
+                            sys_user_role: {
+                                id: '15909bd12f4a401aa7467e82dc308375'
+                                key: {
+                                    name: 'x_prna_idea_mgmt.admin'
+                                }
+                            }
                         }
                     },
                     {
