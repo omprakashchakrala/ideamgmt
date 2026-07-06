@@ -145,6 +145,50 @@ declare global {
                         table: 'sys_group_has_role'
                         id: 'e79d115d41454fd6b81447fbbee00eb5'
                     }
+                    demo_user_approver: {
+                        table: 'sys_user'
+                        id: '9546df2c88df472392e12b3c5a081095'
+                    }
+                    demo_user_approver_group: {
+                        table: 'sys_user_grmember'
+                        id: '0a98fe7707e6456ebf9129fad60eb60c'
+                    }
+                    demo_user_approver_role: {
+                        table: 'sys_user_has_role'
+                        id: '462740361af3405b8979b47918ad7c45'
+                    }
+                    demo_user_implementer: {
+                        table: 'sys_user'
+                        id: '5520a1ffa8874e8d9d236dc1e5a2a619'
+                    }
+                    demo_user_implementer_group: {
+                        table: 'sys_user_grmember'
+                        id: '50d0587e7f8845259f504999cad7839b'
+                    }
+                    demo_user_implementer_role: {
+                        table: 'sys_user_has_role'
+                        id: 'e2666d0aba1f4163830e0c16547056a0'
+                    }
+                    demo_user_requestor: {
+                        table: 'sys_user'
+                        id: '0afa13709ae84a49a675ad9354c8a13b'
+                    }
+                    demo_user_requestor_role: {
+                        table: 'sys_user_has_role'
+                        id: 'd23ac27974134d37b3d9c7671453d601'
+                    }
+                    demo_user_solution_designer: {
+                        table: 'sys_user'
+                        id: '3ec273a9288e4429b5411665ac09cac0'
+                    }
+                    demo_user_solution_designer_group: {
+                        table: 'sys_user_grmember'
+                        id: '839a0d80722d482ca4d78544ec2db6b9'
+                    }
+                    demo_user_solution_designer_role: {
+                        table: 'sys_user_has_role'
+                        id: '8d7050d5c40e4147865be592531f30e1'
+                    }
                     flow_create_idea_assessment_tasks: {
                         table: 'sys_hub_flow'
                         id: '08e6573d7a6f45d0874533ce5ec540c7'
@@ -292,6 +336,138 @@ declare global {
                     package_json: {
                         table: 'sys_module'
                         id: '3c72f6b106e147fc8fa0601486aa0458'
+                    }
+                    seed_idea_01: {
+                        table: 'x_prna_idea_mgmt_idea'
+                        id: 'f872b9f926bf4ba1bf38eca419703585'
+                    }
+                    seed_idea_02: {
+                        table: 'x_prna_idea_mgmt_idea'
+                        id: 'b53a73f3f8344a8da3694e5529aede20'
+                    }
+                    seed_idea_02_task_1: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '68a8ce60856b4adfbdf808a6543588a5'
+                    }
+                    seed_idea_02_task_2: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: 'e6695f5ef201492fa9a3b577685bf3b9'
+                    }
+                    seed_idea_02_task_3: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: 'd3e725e651a94cbca3cbb2f9c3a6a3a1'
+                    }
+                    seed_idea_03: {
+                        table: 'x_prna_idea_mgmt_idea'
+                        id: '6f8e3b0c116c4a09ae5edfae71d1b501'
+                    }
+                    seed_idea_03_task_1: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: 'd8bbd740790441a69fd11339018cfdfd'
+                    }
+                    seed_idea_03_task_2: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '3d4ef58da0894e54992aaeb133bdd939'
+                    }
+                    seed_idea_03_task_3: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '04d29c4fab594ce4a40ea2c922b0e716'
+                    }
+                    seed_idea_04: {
+                        table: 'x_prna_idea_mgmt_idea'
+                        id: '0ae84a42106c4df495ab0f5f0a73f4b1'
+                    }
+                    seed_idea_04_task_1: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '621c3cd6e2344755ac7acbe7fce11daf'
+                    }
+                    seed_idea_04_task_2: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '40c41bc3795145329c16da34c2f15f19'
+                    }
+                    seed_idea_04_task_3: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: 'e6db2631512f44139db2b50d2e171b05'
+                    }
+                    seed_idea_05: {
+                        table: 'x_prna_idea_mgmt_idea'
+                        id: 'fd551842d67e429d83b2f4495b01c0c9'
+                    }
+                    seed_idea_05_task_1: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '441e52cf714f43488500f4c9274ed464'
+                    }
+                    seed_idea_05_task_2: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '0e9157c9c1f54434ac3c76ed6dce4bae'
+                    }
+                    seed_idea_05_task_3: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '752ffa1b981f41f4bfadea8db1dc6110'
+                    }
+                    seed_idea_06: {
+                        table: 'x_prna_idea_mgmt_idea'
+                        id: 'af7363aaf46f49d48dd4658b3662222e'
+                    }
+                    seed_idea_07: {
+                        table: 'x_prna_idea_mgmt_idea'
+                        id: '4a4afd922d65478a94c09ae1eba5e92c'
+                    }
+                    seed_idea_07_task_4: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: 'e5a27be43b5046288357d160d4e00471'
+                    }
+                    seed_idea_07_task_5: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '7e633e124a0440d5ba326c68402e3683'
+                    }
+                    seed_idea_07_task_6: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '8093aebf506c421f8c51565ee7689a78'
+                    }
+                    seed_idea_08: {
+                        table: 'x_prna_idea_mgmt_idea'
+                        id: '25f73f5567eb482abe64b2f3c0e9d72b'
+                    }
+                    seed_idea_08_task_4: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '90c257f7090949a792ca94eaebc30bd8'
+                    }
+                    seed_idea_08_task_5: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '5b7e0d5e9fe646f1a8b3b13d2697c1a8'
+                    }
+                    seed_idea_08_task_6: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: 'b56ecb73d7d04921a9f2f0bfe72d6629'
+                    }
+                    seed_idea_09: {
+                        table: 'x_prna_idea_mgmt_idea'
+                        id: '017237fa593b4862b0038902b6f166f0'
+                    }
+                    seed_idea_09_task_1: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '2898883fb2674c2585230fb98c342c05'
+                    }
+                    seed_idea_09_task_2: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: 'cba39b5b945d425080028651696cbdc8'
+                    }
+                    seed_idea_09_task_3: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '5e4b57d1ebbe47caa8b376c75b95742e'
+                    }
+                    seed_idea_09_task_4: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '9e5b0be4591749f6904f7cb8c95386c1'
+                    }
+                    seed_idea_09_task_5: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: 'b8903f69dfdb476d91256fe98b14fdeb'
+                    }
+                    seed_idea_09_task_6: {
+                        table: 'x_prna_idea_mgmt_task'
+                        id: '28aaaedc13184932bd2100995c14a9a6'
                     }
                     solutions_team_group: {
                         table: 'sys_user_group'
